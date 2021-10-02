@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using Ganaderia.App.Dominio;
 using Ganaderia.App.Persistencia;
 
@@ -27,6 +27,8 @@ namespace Ganaderia.App.Consola
             };
 
             _repositorioGanadero.AddGanadero(ganadero);
+
+
         }
         
     }
